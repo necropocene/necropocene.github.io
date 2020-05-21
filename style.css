@@ -2,6 +2,8 @@
 
 body{
     background-color: antiquewhite;
+    background-image: url("bgWebsite.png");
+    background-position: center;
     font-family: 'Quantico', sans-serif;
     font-size: 2.5rem;
     text-align: center;
@@ -12,12 +14,7 @@ h1{
     font-size: 6rem;
 }
 
-handBanner{
-    z-index: -5;
-    position: relative;
-    align: top;
 
-}
 
 /*
 handBanner__Left{
