@@ -1,12 +1,27 @@
 /* starting with mobile layout! make mobile the default scale/function */
 
-.body{
+body{
     background-color: antiquewhite;
     font-family: 'Quantico', sans-serif;
     font-size: 4rem;
+    text-align: center;
 }
 
-.head{
+head{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 10rem;
 }
+
+handBanner{
+    z-index: -5;
+}
+
+/*
+handBanner__Left{
+
+}
+
+handBanner__Right{
+
+}
+*/
