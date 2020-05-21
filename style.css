@@ -1,0 +1,11 @@
+/* starting with mobile layout! make mobile the default scale/function */
+
+.body{
+    background-color: antiquewhite;
+    font-family: 'Quantico', sans-serif;
+}
+
+.head{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 10rem;
+}
