@@ -42,9 +42,6 @@ h1{
 }
 
 .imageThumbnails{
-    width: 50%;
-    height: 50%;
-    max-width: 10rem;
-    max-height: 10rem;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }
