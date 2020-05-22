@@ -30,14 +30,18 @@ h1{
     
 }
 
-.navbar{
+.body__navbar{
     margin-left: auto;
     margin-right: auto;
     margin-top: 9rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 95%;
+    width: 85%;
     word-spacing: 1rem;
+    background-color: pink;
+}
+
+.body__textBoxes{
     background-color: pink;
 }
 
