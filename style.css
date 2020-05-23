@@ -49,6 +49,11 @@ h3{
     
 }
 
+a{
+    color: #662ec9;
+    padding: .5rem;
+}
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
