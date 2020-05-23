@@ -65,7 +65,8 @@ a:hover, a:visited, a:link, a:active
     margin-top: 9rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 85%;
+    border-radius: 2rem;
+    width: 88%;
     word-spacing: 1rem;
     font-weight: bold;
     background-color: pink;
