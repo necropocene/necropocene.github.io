@@ -21,6 +21,16 @@ h1{
     padding-right: 1.5rem;
 }
 
+h3{
+    color: #ff5cbe;
+    background-color: pink;
+    margin-left:5rem;
+    margin-right:5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5rem;
+}
+
 .introText{
     
     margin-left: auto;
@@ -28,6 +38,11 @@ h1{
     margin-top: 5rem;
     width: 80%
     
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 .body__navbar{
@@ -40,19 +55,20 @@ h1{
     word-spacing: 1rem;
     font-weight: bold;
     background-color: pink;
-    text-decoration: none;
-}
-
-.body__socialMedia{
-    text-decoration: none;
 }
 
 .body__textBoxes{
     background-color: pink;
-    margin-right: auto;
-    margin-left: auto;
-}
+    border-radius: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
+}
 .imageThumbnails{
     display: flex;
     flex-wrap: wrap;
