@@ -38,7 +38,13 @@ h1{
     padding-bottom: 1rem;
     width: 85%;
     word-spacing: 1rem;
+    font-weight: bold;
     background-color: pink;
+    text-decoration: none;
+}
+
+.body__socialMedia{
+    text-decoration: none;
 }
 
 .body__textBoxes{
@@ -50,4 +56,8 @@ h1{
 .imageThumbnails{
     display: flex;
     flex-wrap: wrap;
+}
+
+.aboutImage{
+    z-index: -5;
 }
