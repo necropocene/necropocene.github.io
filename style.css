@@ -86,8 +86,12 @@ a:hover, a:visited, a:link, a:active
 }
 .imageThumbnails{
     display: flex;
-    flex-wrap: wrap;
-    width: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
     height: auto;
 }
 
