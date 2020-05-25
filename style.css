@@ -123,6 +123,10 @@ a:hover, a:visited, a:link, a:active
     padding-right: 2rem;
     padding-left: 1rem;
 }
+.lightbox p{
+    padding-left: 1rem;
+    padding-right:1rem;
+}
 
 .lightbox:target{
     /*show lightbox when its target*/
