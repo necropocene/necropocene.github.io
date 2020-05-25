@@ -104,7 +104,6 @@ a:hover, a:visited, a:link, a:active
 .lightbox{
     /* hide light box if not clicked */
     display: none;
-
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -113,14 +112,16 @@ a:hover, a:visited, a:link, a:active
     top: 0;
     left: 0;
     background: black;
-    background: rgba(0,0,0,0.8)
-
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
 }
 
 .lightbox img{
     max-width: 90%;
     max-height: 80%;
-    margin-top: 2%;
+    margin-top: 5%;
+    padding-right: 2rem;
+    padding-left: 1rem;
 }
 
 .lightbox:target{
