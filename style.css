@@ -102,12 +102,11 @@ a:hover, a:visited, a:link, a:active
 /* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
 
 .lightbox{
-    /* hide light box if not clicked */
     display: none;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     width: 100%;
-    height: 100%;
+    height: 250%;
     text-align: center;
     top: 0;
     left: 0;
