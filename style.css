@@ -99,7 +99,7 @@ a:hover, a:visited, a:link, a:active
     z-index: -5;
 }
 
-/* lightbox code reference, adapted for my own use!*/
+/* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
 
 .lightbox{
     /* hide light box if not clicked */
