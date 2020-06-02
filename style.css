@@ -85,6 +85,18 @@ a:hover, a:visited, a:link, a:active
 
 }
 
+.body__textBoxesComm{
+    background-color: #ffc0cbc9;
+    border-radius: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .body__about{
     background-color: #ffc0cbc9;
     border-radius: 5rem;
