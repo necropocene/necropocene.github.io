@@ -181,4 +181,8 @@ a:hover, a:visited, a:link, a:active
         background: none;
     }
 
+    .homeImage{
+        width: 25rem;
+    }
+
 }
