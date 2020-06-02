@@ -164,8 +164,4 @@ a:hover, a:visited, a:link, a:active
     .body__about{
         justify-content: right;
     }
-    .body__socialMedia{
-        height: auto;
-        width: 60%;
-    }
 }
