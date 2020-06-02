@@ -90,8 +90,8 @@ a:hover, a:visited, a:link, a:active
     justify-content: center;
     flex-flow: wrap;
     width: 100%;
+    margin-top: 3rem;
     text-align: center;
-    margin: 10% 0;
     height: auto;
 }
 
@@ -144,4 +144,9 @@ a:hover, a:visited, a:link, a:active
         margin-right:17rem;
         margin-bottom: 5rem;
     }
+    .body__imageThumbnails{
+        
+    }
+
+ 
 }
