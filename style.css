@@ -132,3 +132,16 @@ a:hover, a:visited, a:link, a:active
     display: block;
     outline: none;
 }
+
+@media screen and (min-width: 75rem){
+    .body__navbar{
+        font-size: 1rem;
+        width: 70%;
+    }
+    body{
+        font-size: 1rem;
+        margin-left: 16rem;
+        margin-right:17rem;
+        margin-bottom: 5rem;
+    }
+}
