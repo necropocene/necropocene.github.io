@@ -194,8 +194,13 @@ a:hover, a:visited, a:link, a:active
     }
 
     .lightbox img{
-        width: 35%;
-        height: auto;
+        max-width: 65%;
+        max-height: 45rem;
+    }
+
+    p{
+        margin-right: 15rem;
+        margin-left: 15rem;
     }
 
 }
