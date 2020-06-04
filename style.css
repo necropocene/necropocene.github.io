@@ -85,6 +85,18 @@ a:hover, a:visited, a:link, a:active
 
 }
 
+.body__textBoxesFlex{
+    background-color: #ffc0cbc9;
+    border-radius: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
 
 .body__about{
     background-color: #ffc0cbc9;
@@ -179,8 +191,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     h1{
-        margin-left:1rem;
-        max-width: 10rem;
+        font-size: 4rem;
     }
 
     h3{
