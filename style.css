@@ -193,4 +193,9 @@ a:hover, a:visited, a:link, a:active
         width: 30rem;
     }
 
+    .lightbox img{
+        width: 35%;
+        height: auto;
+    }
+
 }
