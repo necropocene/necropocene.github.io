@@ -15,7 +15,7 @@ body{
 
 h1{
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
     margin-top: 11rem;
     padding-right: 1.5rem;
@@ -182,7 +182,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     .aboutImage{
-        margin-top: -40rem;
+        margin-top: -39rem;
         margin-right: 30rem;
         margin-bottom: 20rem;
         width: 25rem;
@@ -213,6 +213,10 @@ a:hover, a:visited, a:link, a:active
     p{
         margin-right: 15rem;
         margin-left: 15rem;
+    }
+
+    .body__textBoxesFlex{
+        display: flex;
     }
 
 }
