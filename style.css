@@ -180,6 +180,7 @@ a:hover, a:visited, a:link, a:active
 
     h1{
         margin-left:1rem;
+        max-width: 10rem;
     }
 
     h3{
