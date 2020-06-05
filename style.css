@@ -211,8 +211,8 @@ a:hover, a:visited, a:link, a:active
     }
 
     p{
-        margin-right: 15rem;
-        margin-left: 15rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
     }
 
     .body__textBoxesFlex{
