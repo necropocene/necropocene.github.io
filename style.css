@@ -125,6 +125,10 @@ a:hover, a:visited, a:link, a:active
     z-index: -5;
 }
 
+.featuredImage{
+    margin-top: 3rem;
+}
+
 /* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
 
 .lightbox{
