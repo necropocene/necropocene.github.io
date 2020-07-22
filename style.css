@@ -125,12 +125,15 @@ a:hover, a:visited, a:link, a:active
     z-index: -5;
 }
 
-.featuredImage{
+img.featuredImage{
     margin-top: 3rem;
 }
 
 img.commImage{
-    border-radius: 0rem 3rem 3rem 3rem;
+    width: 60rem;
+    height: auto;
+    margin-top: 4rem;
+    border-radius: 0rem 7rem 7rem 7rem;
 }
 
 /* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
