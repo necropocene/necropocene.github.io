@@ -130,8 +130,10 @@ a:hover, a:visited, a:link, a:active
 }
 
 .commImage{
-    width: 100%;
+    width: 75%;
     height: auto;
+    padding-top: 3rem;
+    border-radius: 3rem;
 }
 
 /* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
