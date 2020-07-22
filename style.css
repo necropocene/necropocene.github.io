@@ -110,7 +110,7 @@ a:hover, a:visited, a:link, a:active
     padding-right: 1rem;
 }
 
-.body__imageThumbnails{
+img.body__imageThumbnails{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,9 @@ a:hover, a:visited, a:link, a:active
 }
 
 img.featuredImage{
+    width: 100%;
     margin-top: 3rem;
+    border-radius: 0rem 7rem;
 }
 
 img.commImage{
