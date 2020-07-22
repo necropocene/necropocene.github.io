@@ -129,11 +129,8 @@ a:hover, a:visited, a:link, a:active
     margin-top: 3rem;
 }
 
-.commImage{
-    width: 75%;
-    height: auto;
-    margin-top: 3rem;
-    border-radius: 3rem;
+img.commImage{
+    border-radius: 0rem 3rem 3rem 3rem;
 }
 
 /* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
