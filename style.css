@@ -132,7 +132,7 @@ a:hover, a:visited, a:link, a:active
 .commImage{
     width: 75%;
     height: auto;
-    padding-top: 3rem;
+    margin-top: 3rem;
     border-radius: 3rem;
 }
 
