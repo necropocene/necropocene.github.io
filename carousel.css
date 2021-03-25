@@ -19,7 +19,7 @@
     }
 }
 
-/* Styling */
+// Styling
 
 section {
     background: #f4f4f4;
@@ -38,7 +38,7 @@ section {
     position: relative;
     margin-bottom: 22px;
 
-    input {
+    > input {
         clip: rect(1px, 1px, 1px, 1px);
         clip-path: inset(50%);
         height: 1px;
@@ -158,14 +158,13 @@ section {
     }
 }
 
-    .carousel__thumbnails {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
+.carousel__thumbnails {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 
-        margin: 0 -10px;
-    }
+    margin: 0 -10px;
 
     .carousel__slides + & {
         margin-top: 20px;
