@@ -139,10 +139,10 @@ img.commImage{
     border-radius: 0rem 7rem 7rem 7rem;
 }
 
-/* lightbox code reference, adapted for my own use! source: https://schier.co/blog/creating-pure-css-lightboxes-with-the-target-selector*/
+/* lightbox code reference, adapted for my own use! */
 
 .thumb {
-    max-height: 171px;
+    max-height: 150px;
     border: solid 6px rgba(5, 5, 5, 0.8);
 }
 
