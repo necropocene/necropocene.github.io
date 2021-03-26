@@ -144,7 +144,7 @@ img.commImage{
 .thumb {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-height: 115px;
+    max-height: 125px;
     border: solid 2px rgba(100, 70, 155, 0.8);
 }
 
@@ -178,12 +178,6 @@ img.commImage{
 }
 
 .lightbox:target img {    
-    opacity: 1;
-    transition: opacity 0.6s;
-}
-
-.lightbox:target img {
-    border: solid 17px rgba(77, 77, 77, 0.8);
     opacity: 1;
     transition: opacity 0.6s;
 }
