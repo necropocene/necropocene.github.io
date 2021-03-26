@@ -1,33 +1,45 @@
-<div class="container">
-    <link rel="stylesheet" href="../necropocene.github.io/carousel.css">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
-                <!-- slides -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active"> <img src="https://i.imgur.com/weXVL8M.jpg" alt="Hills"> </div>
-                    <div class="carousel-item"> <img src="https://i.imgur.com/Rpxx6wU.jpg" alt="Hills"> </div>
-                    <div class="carousel-item"> <img src="https://i.imgur.com/83fandJ.jpg" alt="Hills"> </div>
-                    <div class="carousel-item"> <img src="https://i.imgur.com/JiQ9Ppv.jpg" alt="Hills"> </div>
-                </div> <!-- Left right --> <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next"
-                    href="#custCarousel" data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
-                <!-- Thumbnails -->
-                <ol class="carousel-indicators list-inline">
-                    <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0"
-                            data-target="#custCarousel"> <img src="https://i.imgur.com/weXVL8M.jpg" class="img-fluid">
-                        </a> </li>
-                    <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1"
-                            data-target="#custCarousel"> <img src="https://i.imgur.com/Rpxx6wU.jpg" class="img-fluid">
-                        </a> </li>
-                    <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2"
-                            data-target="#custCarousel"> <img src="https://i.imgur.com/83fandJ.jpg" class="img-fluid">
-                        </a> </li>
-                    <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="3"
-                            data-target="#custCarousel"> <img src="https://i.imgur.com/JiQ9Ppv.jpg" class="img-fluid">
-                        </a> </li>
-                </ol>
+<h1>CSS-only Carousel</h1>
+
+<p>This carousel is created with HTML and CSS only.</p>
+
+<section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
             </div>
-        </div>
-    </div>
-</div>
+        </li>
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+        </li>
+    </ol>
+    <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+            </li>
+        </ol>
+    </aside>
+</section>
