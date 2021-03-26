@@ -142,10 +142,9 @@ img.commImage{
 /* lightbox code reference, adapted for my own use! */
 
 .thumb {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-height: 125px;
-    border: solid 2px rgba(100, 70, 155, 0.8);
+    margin-top: 1rem; 
+    max-height: 150px;
+    border: solid 5px rgba(100, 70, 155, 0.8);
 }
 
 .lightbox {
