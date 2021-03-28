@@ -121,6 +121,18 @@ a:hover, a:visited, a:link, a:active
     height: auto;
 }
 
+.imgRight{
+    position: right;
+    width: 100%;
+    height: auto;
+}
+
+.imgLeft{
+    position: left;
+    width: 100%;
+    height: auto;
+}
+
 
 
 .aboutImage{
