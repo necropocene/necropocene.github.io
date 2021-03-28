@@ -110,6 +110,7 @@ a:hover, a:visited, a:link, a:active
     padding-right: 1rem;
 }
 
+/*
 .body__imageThumbnails{
     display: flex;
     align-items: center;
@@ -120,6 +121,7 @@ a:hover, a:visited, a:link, a:active
     text-align: center;
     height: auto;
 }
+*/
 
 .imgRight{
     position: right;
