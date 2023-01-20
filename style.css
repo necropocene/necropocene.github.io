@@ -179,8 +179,8 @@ img.commImage{
 
 .lightbox img {
     max-width: 90%;
-    max-height: 80%;
-    margin-top: 2%;
+    max-height: 100%;
+    margin-top: 7%;
     opacity: 0;
 }
 
@@ -218,11 +218,11 @@ img.commImage{
 }
 
 .btn-prev {
-    left: 7%;
+    left: 4%;
 }
 
 .btn-next {
-    right: 7%;
+    right: 4%;
 }
 
 .btn-close {
